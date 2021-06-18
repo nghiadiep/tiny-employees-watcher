@@ -1,0 +1,31 @@
+.employees-wrapper {
+  padding: 30px 50px;
+}
+
+.flex-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-vertical-center > span {
+  margin-left: 10px;
+}
+
+.flex-vertical-center.right {
+  justify-content: flex-end;
+}
+
+input {
+  appearance: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+input.right {
+  text-align: right;
+}
+
+.loading {
+  margin-right: 20px;
+}
